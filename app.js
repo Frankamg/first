@@ -10,7 +10,7 @@ let range;
 let countriesData = [];
 
 const fetchCountries = async () => {
-  await fetch("all.json")
+  await fetch("https://restcountries.com/v3.1/all")
     .then((res) => res.json())
     .then((data) => {
       countriesData = data;
@@ -40,8 +40,8 @@ const fetchCountries = async () => {
   //   countriesDisplay();
   // });
   
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    countriesDisplay();
+  // form.addEventListener("submit", (e) => {
+  //   e.preventDefault();
+  //   countriesDisplay();
 
-  });
+  // });
