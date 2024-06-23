@@ -31,17 +31,4 @@ const fetchCountries = async () => {
       )
       .join("");
   }
- countriesDisplay()
-  // input.addEventListener("input", (e) => {
-  //   fetchCountries(e.target.value);
-    
-  // });
-  // window.addEventListener("load",  () => {
-  //   countriesDisplay();
-  // });
-  
-  // form.addEventListener("submit", (e) => {
-  //   e.preventDefault();
-  //   countriesDisplay();
-
-  // });
+countriesDisplay();
